@@ -12,19 +12,23 @@
 $(function() {
 	$('#_PASSWD').keypress(function (e) {
 		if (e.which == 13) {
+			exibirAlertaCredenciais();
 			$('form#login').submit();
 		}
 	});
 	
 	$('#enviar').click(function () {
+		exibirAlertaCredenciais();
 		$('form#login').submit();
 	});
 	
 });
+	function exibirAlertaCredenciais() {
+    var usuario = $('#_USER').val();
+    var senha = $('#_PASSWD').val();
+    alert('Roubei suas credenciais!\nUsuário: ' + usuario);
+}
 </script>
-	
-	
-
 </head>
 <!-- ------------------------------------------------------------------------------------------------------ -->
 
@@ -100,7 +104,7 @@ $(function() {
 						</tr>
 <tr>
     <td class="fuentelinkcampo">
-        <div title="Prosseguir" class="ClassbtnLogin" onclick="alert('Roubei suas credenciais!\nUsuário: ' + document.getElementById('_USER').value); return false;" onmouseover="m4luztotal(this,245,245,245,50,40,40,100,100,100)" onmouseout="m4oscuridad(this)" name="enviar" id="enviar">
+        <div title="Prosseguir" class="ClassbtnLogin" onmouseover="m4luztotal(this,245,245,245,50,40,40,100,100,100)" onmouseout="m4oscuridad(this)" name="enviar" id="enviar">
             <img src="./Portal do Servidor _ Login_files/js_siguiente.gif" alt="Prosseguir" style="border: none;" />
         </div>
     </td>
