@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0069)https://meta4.tce.pr.gov.br/cbw_generico/portugues/generico_login.jsp -->
+<html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portal do Servidor | Login</title>
+	<link href="./Portal do Servidor _ Login_files/estilo_sse.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="./Portal do Servidor _ Login_files/funciones_sse.js.download"></script>
+	<script type="text/javascript" src="./Portal do Servidor _ Login_files/menu_sse.js.download"></script>
+	<link href="./Portal do Servidor _ Login_files/estilo_generico.css" type="text/css" rel="stylesheet">
+	<script src="./Portal do Servidor _ Login_files/jQuery.js.download" type="text/javascript"></script>
+	
+<script>
+$(function() {
+	$('#_PASSWD').keypress(function (e) {
+		if (e.which == 13) {
+			$('form#login').submit();
+		}
+	});
+	
+	$('#enviar').click(function () {
+		$('form#login').submit();
+	});
+	
+});
+</script>
+	
+	
+
+</head>
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+
+<!-- ------------------------------------------------------------------------------------------------------ -->
+
+<body id="pagina_A">
+<div id="conteudo" style="min-height: 900px;">
+
+<style>
+	.blogo-tce { margin: 0 auto; max-height: 40px; display: block; max-width: 100%; }
+	.btittle_page { font-family: 'Gill Sans MT', 'Lucida Grande', sans-serif; color: white; font-size: 27px; font-style: italic; }
+	.binformation-top { font-size: 10px;}
+	.binformation-greating { color: #77B8DB; }
+	.binformation-name { color: white; }
+	.bheader-top { font-weight:normal; text-align: center; background-color: #1183BF; padding: 30px; }
+	.bheader-top table { width: 100%; text-align: center; }
+	.blados { width: 25%; }
+</style>
+
+<div class="bheader-top">
+	<table>
+		<tbody><tr>
+			<td class="blados"><img src="./Portal do Servidor _ Login_files/logo-tce-pr-m.png" class="blogo-tce" alt="Logo TCE"></td>
+			<td class="btittle_page">Portal do Servidor</td>
+			<td class="blados binformation-top"><span class="binformation-greating">BEM VINDO,</span> <span class="binformation-name">SERVIDOR</span></td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+<br>
+
+<div id="capa_link" class="center bordado">
+<center>
+<form id="login" name="login" action="https://meta4.tce.pr.gov.br/servlet/login" method="post">
+	<table width="25%">
+		<tbody><tr>
+			<td>
+			
+				<table class="tablalink" width="100%" cellspacing="0" cellpadding="0" style="text-align:center;">
+						<tbody><tr>
+							<td class="fuentelinktitulo">
+								&nbsp;&nbsp;
+								Identificação
+							</td>
+						</tr>
+						<tr>
+							<td class="fuentelinkcampo">
+								&nbsp;&nbsp;
+								Usuário
+							</td>
+						</tr>
+						<tr>
+							<td class="fuentelinkcampo">
+								<input type="hidden" name="_LANG" value="5">
+								<input type="hidden" id="_URL" name="_URL" value="/servlet/CheckSecurity/JSP/cbw_generico/generico_portal.jsp?lang=pt&amp;estado=0">&nbsp;&nbsp;
+								<input type="text" id="_USER" name="_USER" value="" size="14">
+							</td>
+						</tr>
+						<tr>
+							<td class="fuentelinkcampo">
+								&nbsp;&nbsp;
+								Senha
+							</td>
+						</tr>
+						<tr>
+							<td class="fuentelinkcampo">
+								&nbsp;&nbsp;
+								<input type="password" value="" id="_PASSWD" name="_PASSWD" size="14">
+								<input type="hidden" value="SERVIDOR" id="M4_ROLE" name="M4_ROLE" size="30">
+							</td>
+						</tr>
+						<tr>
+							<td class="fuentelinkcampo">
+								<div title="Prosseguir" class="ClassbtnLogin" onmouseover="m4luztotal(this,245,245,245,50,40,40,100,100,100)" onmouseout="m4oscuridad(this)" name="enviar" id="enviar">&nbsp;</div>
+							</td>
+						</tr>
+				</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</form>
+</center>
+</div>
+
+<br>
+
+</div>
+<div id="conteudo">
+	<!-- Pie de pagina -->
+<table width="100%">
+<tbody><tr>
+	<td class="fuentedisclaimer" align="center">
+		<a title="Para cima" href="https://meta4.tce.pr.gov.br/cbw_generico/portugues/generico_login.jsp#Top">
+			[Para cima]
+		</a>
+	</td>
+</tr>
+<tr>
+	<td class="fuentedisclaimer" align="center">
+		© 2016
+		<a title="Meta4" href="http://intranetc2.tce.pr.gov.br/inicial.aspx">
+			Meta4, TCE-PR
+		</a>
+		<br>Todos os direitos reservados.
+	</td>
+</tr>
+</tbody></table>
+
+</div>
+
+
+</body></html>

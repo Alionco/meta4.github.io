@@ -1,0 +1,916 @@
+/* -------------------------------------------------------------------- PRINCIPAL - INICIO -------------------------------------------------------------------- */
+
+body
+{
+	margin-top:0px;
+	margin-bottom:4px;
+	/*background-color: #E6EEF1;*/
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	height: 100%;
+}
+
+h1
+{
+	font-size: 18px;
+	text-align: center;
+	FONT-WEIGHT: bold;
+	COLOR: #0f66a0;
+	margin: 0px;
+}
+
+h2
+{
+	font-size: 16px;
+	text-align: center;
+	FONT-WEIGHT: bold;
+	COLOR: #0f66a0;
+	margin: 0px;
+}
+
+h3
+{
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	COLOR: #0f66a0;
+	margin: 0px;
+}
+
+h4
+{
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	COLOR: #0f66a0;
+	margin: 0px;
+}
+
+form  /* Para poder colocar um form dentro de uma linha de tabela sem deformala. [FireFox] */
+{
+	margin: 0px;
+}
+
+a  /* Para links sem determinar url. [IE] */
+{
+	cursor:pointer;
+	COLOR:#0000FF;
+	text-decoration: underline;
+}
+
+.center /* Usado em conjunto para alinhar e distribuir um elemento na página. */
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:96%;
+}
+
+
+
+.titulo_A{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.campo_A{
+	COLOR: #0f66a0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.clicavel{
+	cursor:pointer;
+}
+
+/* -------------------------------------------------------------------- PRINCIPAL - FIM -------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------- DIVS - INICIO --------------------------------------------------------------------- */
+div#conteudo /* Div usado logo após o body, todo conteúdo vai dentro. Como só há um ele é do tipo id.*/
+{
+	position: relative;
+	text-align: center;
+	background-color: #FFF;
+	width: 950px;
+	margin: 0 auto; /* Centraliza na página. O 'auto' centraliza no body. [FireFox] */
+}
+
+#pagina_A
+{
+background-color: #E6EEF1;
+}
+
+#pagina_B
+{
+background-color: #FFF;
+/*size: A4 landscape;*/
+}
+
+/*div
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	
+}*/
+
+div.caixaMensagem_A  /* Caixa de mensagem com fundo amarelo para mensagens retornadas, usada também em glossários. */
+{ 
+    font-size: 12px;
+	background-color: #FBF9EA;
+    border: 1px solid #E2E1D5;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0 auto;
+    /*overflow-x: auto;*/
+    padding: 10px;
+	width: 70%;
+}
+
+.bordado  
+{ 
+    border: 1px solid #E1E6EC;
+    border-radius: 2px 2px 2px 2px;
+    margin: 0 auto;
+    /*overflow-x: auto;*/
+    padding: 10px;
+}
+
+div.contentBox_Blue{
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: center;
+	font-weight: bold;
+}
+
+div.caixaDestaque_A{
+	background-color: #e6eef1;
+	width: 500px;
+	padding: 15px;
+	text-align: left;
+}
+
+div.contentBox_R{
+	background-color: #e6eef1;
+	float: right;
+	width: 250px;
+	padding: 15px;
+	text-align: left;
+}
+
+div.contentBox_C{
+	background-color: #e6eef1;
+	float: right;
+	width: 250px;
+	padding: 15px;
+	text-align: center;
+}
+
+.contentBox_A{
+	/*padding: 10px;*/
+	text-align: left;
+	float: left;
+}
+
+/* ------------------------------------------------------------------------- DIVS - FIM ------------------------------------------------------------------------ */
+
+/* -------------------------------------------------------------------- FORMULARIO - INICIO -------------------------------------------------------------------- */
+
+.formulario70  /* Usado em input. */
+{
+    FONT-SIZE: 12px;
+    WIDTH: 70px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.formulario60  /* Usado em input. */
+{
+    FONT-SIZE: 10px;
+    WIDTH: 60px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.formulario150
+{
+    FONT-SIZE: 10px;
+    WIDTH: 150px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff;
+}
+
+.formularioAuto  /* Usado em input em tabelas para alinhar. */
+{
+    FONT-SIZE: 12px;
+	WIDTH: 98%; /* Conta a expessura da borda. [Outros] */
+	/**WIDTH: 100%; /* Não conta a espessura da borda da tabela. [IE] */
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff;
+	padding: 0px; 
+	/*border: 0px;*/
+}
+
+input.formularioAuto_2
+{
+     width: 100%; 
+     box-sizing: border-box;
+     /*-webkit-box-sizing:border-box;*/
+     /*-moz-box-sizing: border-box;*/
+	 /*display:block;*/
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	 
+}
+
+.formulario60_click /* Input clicavel para data. */
+{
+    FONT-SIZE: 10px;
+    WIDTH: 60px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff;
+	cursor:pointer;
+}
+
+
+.avisoA  /* Texto de aviso */
+{
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	COLOR: #0f66a0;
+}
+
+.txtleft /* Alinhar texto Esquerda */
+{
+	text-align: left;
+	/*position: absolute;*/
+	/*margin:0px;*/
+	left: 0;
+	margin-left:auto;
+	margin-right:auto;
+	width:96%;
+}
+
+.txtright /* Alinhar texto Esquerda */
+{
+	text-align: right;
+	/*position: absolute;*/
+	/*margin:0px;*/
+	left: 0;
+	margin-left:auto;
+	margin-right:auto;
+	width:96%;
+}
+
+.txt_Verde
+{
+	COLOR: #128D52;
+}
+
+.txt_Vermelho
+{
+	COLOR: #B22222;
+}
+
+.txt_Amarelo
+{
+	COLOR: #DEB610;
+}
+
+.txt_Azul
+{
+	COLOR: #00709F;
+}
+
+.txt_Cinza
+{
+	COLOR: #A9A9A9;
+}
+
+.txt_Negrito
+{
+	font-weight: bold;
+}
+
+.txt_Sublinhado
+{
+	text-decoration: underline;
+}
+
+.txt_Italico
+{
+	font-style: italic;
+}
+
+.dadosDesc{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.dadosTitulo{
+	COLOR: #0f66a0;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* --------------------------------------------------------------------- FORMULARIO - FIM --------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------- TABELAS INICIO ---------------------------------------------------------------------- */
+
+tr.inativo
+{
+	color:#A9A9A9;;
+}
+
+table.comBorda
+{
+	border-collapse: collapse;
+	color:#222;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+	margin: 0 auto;
+	border-color: #2D5781;
+}
+
+table.semBorda
+{
+	border-collapse: collapse;
+	/*color:#222;*/
+	font-weight: normal;
+	font-size: 12px;
+	text-align: center;
+	border-width: 0px;
+	border-style: solid;
+	margin: 0 auto;
+	border-color: #2D5781;
+}
+
+tr.cabecalhoTabela1, td.cabecalhoTabela1
+{
+	background-color: #2D5781;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+}
+
+tr.cabecalhoTabela2, td.cabecalhoTabela2
+{
+	background-color: #2D5781;
+	color: #FFF;
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+tr.cabecalhoTabela3, td.cabecalhoTabela3 {
+	background-color: #86A7C6;
+	font-weight: bold;
+	/*font-size: 12px;*/
+	border-width: 1px;
+	border-style: solid;
+}
+
+tr.cabecalhoTabela4, td.cabecalhoTabela4 {
+	font-weight: bold;
+	/*font-size: 12px;*/
+	border-width: 1px;
+	border-style: solid;
+}
+
+tr.cabecalhoTabela5, td.cabecalhoTabela5 
+{
+    FONT-SIZE: 12px;
+	border-width: 1px;
+	border-style: solid;
+    COLOR: #15314c;
+    TEXT-ALIGN: center;
+	font-weight: bold;
+}
+
+tr.bordar, td.bordar {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+}
+
+.bordar_td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFF;
+}
+
+tr.pesquisaTitulo, td.pesquisaTitulo  /* Para formularios de pesquisa. */
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 5px;
+	border-width: 1px;
+	border-style: solid;
+	text-align: right;
+}
+
+tr.pesquisaCampo, td.pesquisaCampo /* Para formularios de pesquisa. */
+{
+	font-size: 12px;
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	text-align: left;
+}
+
+tr.pesquisaTituloSB, td.pesquisaTituloSB  /* Para formularios de pesquisa. */
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 5px;
+	border: 0px;
+	text-align: right;
+}
+
+tr.pesquisaCampoSB, td.pesquisaCampoSB /* Para formularios de pesquisa. */
+{
+	font-size: 12px;
+	font-weight: normal;
+	border: 0px;
+	text-align: left;
+}
+
+tr.registroCampo, td.registroCampo /* Para registros retornados. */
+{
+	font-size: 10px;
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: auto;
+	border-color: #2D5781;
+	
+}
+
+tr.registroCampo_B, td.registroCampo_B
+{
+	/*font-size: 12px;*/
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+tr.registroCampo_C, td.registroCampo_C
+{
+	/*font-size: 12px;*/
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: auto;
+	text-align: left;
+}
+
+tr.registroCampo_D, td.registroCampo_D
+{
+	/*font-size: 12px;
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px;
+	text-align: left;*/
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: auto;
+	border-color: #2D5781;
+	
+}
+
+tr.registroCampo_E, td.registroCampo_E
+{
+	/*font-size: 12px;*/
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding: 3px;
+	text-align: justify;
+	border-color: #2D5781;
+}
+
+tr.assinaturaCampo, td.assinaturaCampo
+{
+	/*font-size: 12px;*/
+	font-weight: normal;
+	border-width: 1px;
+	border-style: solid;
+	padding-top: 17px;
+	padding-bottom: 3px;
+}
+
+
+tr.rodapeCampo, td.rodapeCampo /* Rodapé da tabela para páginas e avisos. */
+{
+    FONT-SIZE: 10px;
+	border-width: 1px;
+	border-style: solid;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: center;
+	font-weight: bold;
+}
+
+.corNao
+{
+	background-color: #FFF;
+}
+
+.corSim
+{
+	background-color: #EEE;
+}
+
+.comboTable_A
+{
+/*width: 80%;*/
+text-align: center;
+}
+
+/* ---------------------------------------------------------------------- TABELAS FIM ---------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------- BOTÕES - INICIO -------------------------------------------------------------------- */
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+
+IMG.brasao
+{
+	float:left;
+	/*position:Fixed;*/
+}
+
+/*
+ * Descrição..: Criado Classe para gerar botão voltar em classe evitando possivel confronto de id entre as páginas
+ */
+.ClassbtnVazioAzul /* Utilizar em uma div/span escrevendo um texto para criar o botão. */
+{
+	background-image:url("./imagens/gif_bt_vazio_azul.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+	/*filter:opacity(alpha=60); /* para o IE */
+    /*-moz-opacity:0.6; /* para o FireFox */
+    /*opacity:0.6; /* para o outros Navegadores */
+}
+
+.ClassbtnAtividades
+{
+	background-image:url("./imagens/gif_bt_vazio_azul.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassbtnAvaliacao
+{
+	background-image:url("./imagens/gif_bt_vazio_azul.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassbtnVazioVerde /* Utilizar em uma div/span escrevendo um texto para criar o botão. */
+{
+	background-image:url("./imagens/gif_bt_vazio_verde.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+	/*filter:opacity(alpha=60); /* para o IE */
+    /*-moz-opacity:0.6; /* para o FireFox */
+    /*opacity:0.6; /* para o outros Navegadores */
+}
+
+.ClassbtnVazioCinza
+{
+	background-image:url("./imagens/gif_bt_vazio_cinza.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassbtnVazioAmarelo
+{
+	background-image:url("./imagens/gif_bt_vazio_amarelo.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassVazioVermelho 
+{
+	background-image:url("./imagens/gif_bt_vazio_vermelho.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassVazioCinza
+{
+	background-image:url("./imagens/gif_bt_vazio_cinza.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+.ClassbtnLogin
+{
+	background-image:url("/cbw_iconos/js_siguiente.gif");
+	cursor:pointer;
+	height:37px;
+	margin:0 auto;
+	width:37px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+#btnVazioAzul /* Utilizar em uma div/span escrevendo um texto para criar o botão. */
+{
+	background-image:url("./imagens/gif_bt_vazio_azul.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+	/*filter:opacity(alpha=60); /* para o IE */
+    /*-moz-opacity:0.6; /* para o FireFox */
+    /*opacity:0.6; /* para o outros Navegadores */
+}
+
+#btnVazioVerde 
+{
+	background-image:url("./imagens/gif_bt_vazio_verde.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+#btnVazioVermelho 
+{
+	background-image:url("./imagens/gif_bt_vazio_vermelho.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+#btnVazioAmarelo
+{
+	background-image:url("./imagens/gif_bt_vazio_amarelo.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+#btnVazioCinza
+{
+	background-image:url("./imagens/gif_bt_vazio_cinza.GIF");
+	cursor:pointer;
+	height:19px;
+	margin:0 auto;
+	width:98px;
+	color: #FFFFFF;
+	font: bold;
+	font-family: Verdana,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align: center;
+	line-height:18px;
+	font-weight: bold;
+}
+
+#btnChkTrue /* Check true. */
+{
+	background-image:url("./imagens/chk_true.png");
+	background-repeat: no-repeat;
+	cursor:pointer;
+	margin:0 auto;
+	height:12px;
+	width:12px;
+}
+
+#btnChkTrueGrey
+{
+	background-image:url("./imagens/chk_true_grey.png");
+	cursor:pointer;
+	margin:0 auto;
+	height:12px;
+	width:12px;
+}
+
+#btnChkFalse 
+{
+	background-image:url("./imagens/chk_false.jpeg");
+	cursor:pointer;
+	margin:0 auto;
+	width:12px;
+	height:12px;
+}
+
+#btnVoltar /* Seta vermelha voltar. */
+{
+	background-image: url("/cbw_iconos/arrow.gif");
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	cursor: pointer;
+	float: right;
+}
+
+#doc /* Ícone doc */
+{
+	background-image: url("./imagens/doc-icon.gif");
+	width: 16px;
+	height: 16px;
+	margin: 0 auto;
+}
+
+#pdf /* Ícone pdf */
+{
+	background-image: url("./imagens/pdf-icon.gif");
+	width: 35px;
+	height: 26px;
+	margin: 0 auto;
+}
+
+#btnOlho /* Ícone olho */
+{
+	background-image: url("../cbw_iconos/ico_consultar.gif");
+	width: 21px;
+	height: 14px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+#btnNao /* Botão pequeno. */
+{
+	background-image: url("./imagens/jpg_bt_nao.jpg");
+	width: 46px;
+	height: 19px;
+	margin: 0 auto;
+	cursor: pointer;
+	float: right;
+}
+
+#btnSim /* Botão pequeno. */
+{
+	background-image: url("./imagens/jpg_bt_sim.jpg");
+	width: 46px;
+	height: 19px;
+	margin: 0 auto;
+	cursor: pointer;
+	float: left;
+}
+
+#btnOk /*  Botão pequeno. */
+{
+	background-image: url("./imagens/jpg_bt_ok.jpg");
+	width: 42px;
+	height: 19px;
+	margin: 0 auto;
+	cursor: pointer;
+	float: center;
+}
+
+/* ------------------------------------------------------------------------ BOTÕES - FIM ----------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------- BANNER_TOP - INICIO -------------------------------------------------------------------- */
+.fuentebarranombre /* Data e nome no banner */
+{
+    FONT-SIZE: 10px;
+    COLOR: #aa5211;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.separador /* Linha que separa banner/página. */
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #b8d3e8
+}
+
+.tablacabecera /* Borda do banner. */
+{
+    COLOR: #d3e8f8;
+    BACKGROUND-COLOR: #b8d3e8
+}
+
+/* -------------------------------------------------------------------- BANNER_TOP - FIM -------------------------------------------------------------------- */
+/* -003466- -E1E6EC- */
+

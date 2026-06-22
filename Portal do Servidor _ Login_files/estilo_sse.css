@@ -1,0 +1,596 @@
+BODY
+{
+    COLOR: #000000;
+    FONT-FAMILY: Verdana,Arial,Helvetica,Sans-Serif;
+    BACKGROUND-COLOR: #ffffff
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+A:link
+{
+    BORDER-RIGHT: #395a82;
+    BORDER-TOP: #395a82;
+    BORDER-LEFT: #395a82;
+    COLOR: #15314c;
+    BORDER-BOTTOM: #395a82;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #15314c;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #b1d202;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #2fa2f2;
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+TABLE.tabladatos
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #0550c9
+}
+.tablaestadosceldatitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #0c4f8a;
+    FONT-FAMILY: arial, verdana;
+    BACKGROUND-COLOR: #d3e1ec
+}
+.titulofuncional
+{
+    FONT-SIZE: 16px;
+    COLOR: #0f66a0;
+    BACKGROUND-COLOR: #eff5f9
+}
+.descripcionfuncional
+{
+    FONT-SIZE: 10px;
+    COLOR: #0f6b89;
+    BACKGROUND-COLOR: #ffffff
+}
+.enlacefuncional
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #ffffff
+}
+.calendario
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    BORDER-LEFT: 1px;
+    WIDTH: 35%;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px;
+    BACKGROUND-COLOR: #e8f8fe
+}
+.colortabla
+{
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ffffff
+}
+.today
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #cb250a;
+    BACKGROUND-COLOR: transparent
+}
+.days
+{
+    FONT-WEIGHT: bold;
+    COLOR: #000080;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentecampo
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: left
+}
+.fuentecampo2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #f1f8fc;
+    TEXT-ALIGN: left
+}
+.fuentevalor
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: left
+}
+.fuentevalor3
+{
+    FONT-SIZE: 10px;
+    COLOR: #033bba;
+    BACKGROUND-COLOR: #f6f6f6;
+    TEXT-ALIGN: left
+}
+.fuentebarranombre
+{
+    FONT-SIZE: 10px;
+    COLOR: #aa5211;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentelinktitulo
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #dce5ec
+}
+.fuentelinkcampo
+{
+    FONT-SIZE: 9px;
+    COLOR: #666666;
+    BACKGROUND-COLOR: #f2f5f7
+}
+.tablalink
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #dce5ec
+}
+.fuentedescripcion
+{
+    FONT-SIZE: 10px;
+    COLOR: #0f6b89;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentetitulomenu
+{
+    FONT-SIZE: 12px;
+    COLOR: #f21f03;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentedisclaimer
+{
+    FONT-SIZE: 9px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #ffffff
+}
+TABLE.tablacabecera
+{
+    COLOR: #d3e8f8;
+    BACKGROUND-COLOR: #b8d3e8
+}
+.separador
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #a2cca5
+}
+DIV.capamenu
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #ffc0cb
+}
+TABLE.tablamenu
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #b8d3e8
+}
+DIV.capalinks
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #008000
+}
+DIV.capacuerpo
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #ffe4c4
+}
+DIV.capadisclaimer
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #0000ff
+}
+.fuentecapamenu
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #000080;
+    BACKGROUND-COLOR: transparent
+}
+TABLE.tablamenusuperior
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #52a2c8
+}
+.fuentemenusuperior
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #52a2c8
+}
+.fuentemenu
+{
+    FONT-SIZE: 9px;
+    COLOR: #737a7e;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentemenu1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #0373cc
+}
+HR.barramenu
+{
+    COLOR: #e6eaed;
+    BACKGROUND-COLOR: #ffffff
+}
+UL.listaenlace
+{
+    COLOR: #5faae4;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: left
+}
+.fuentecalendario1
+{
+    COLOR: #6495ed;
+    BACKGROUND-COLOR: #ffebcd
+}
+.fuentecalendario2
+{
+    COLOR: #6495ed;
+    BACKGROUND-COLOR: #add8e6
+}
+.fuentecalendario3
+{
+    COLOR: #6495ed;
+    BACKGROUND-COLOR: #d3e8c5
+}
+.fuentecalendario4
+{
+    COLOR: #6495ed;
+    BACKGROUND-COLOR: #dc143c
+}
+.fuentecalendario
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #0f546b;
+    BACKGROUND-COLOR: #dce5ec;
+    TEXT-ALIGN: center
+}
+.separadorlinea
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #f1f8fc
+}
+.fuentecamponombre
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2
+}
+.fuentecampoaccion
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2
+}
+.fuentecampoaccion2
+{
+    FONT-SIZE: 10px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #f1f8fc
+}
+.fuentecampofiltro
+{
+    FONT-SIZE: 11px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2
+}
+A
+{
+    BACKGROUND-COLOR: transparent;
+    TEXT-DECORATION: none
+}
+.fuentebarraregistros
+{
+    BORDER-RIGHT: #e9ebed 1px solid;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #e9ebed 1px solid;
+    COLOR: #175e9e;
+    BORDER-BOTTOM: #e9ebed 1px solid;
+    BACKGROUND-COLOR: #f1f8fc;
+    TEXT-ALIGN: center
+}
+.fuentebarraregistrosanulado
+{
+    BORDER-RIGHT: #e9ebed 1px solid;
+    BORDER-TOP: #e9ebed 1px solid;
+    FONT-WEIGHT: lighter;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #e9ebed 1px solid;
+    COLOR: #0550c9;
+    BORDER-BOTTOM: #e9ebed 1px solid;
+    BACKGROUND-COLOR: #f1f8fc;
+    TEXT-ALIGN: center
+}
+.tablacapamenu
+{
+    BORDER-RIGHT: #a6c3d7 1px solid;
+    BORDER-TOP: #a6c3d7 1px solid;
+    BORDER-LEFT: #a6c3d7 1px solid;
+    BORDER-BOTTOM: #a6c3d7 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuentemenuprincipal
+{
+    FONT-SIZE: 10px;
+    COLOR: #c0c0c0;
+    BACKGROUND-COLOR: #ffffff
+}
+.acep
+{
+    COLOR: #4169e1;
+    LIST-STYLE-TYPE: square;
+    BACKGROUND-COLOR: #ffffff
+}
+.cance
+{
+    COLOR: #e9967a;
+    LIST-STYLE-TYPE: square;
+    BACKGROUND-COLOR: #ffffff
+}
+.fest
+{
+    COLOR: #ffd700;
+    LIST-STYLE-TYPE: square;
+    BACKGROUND-COLOR: #ffffff
+}
+.pend
+{
+    COLOR: #dc143c;
+    LIST-STYLE-TYPE: square;
+    BACKGROUND-COLOR: #ffffff
+}
+.tablanavegacion
+{
+    BORDER-RIGHT: #e9ebed thin solid;
+    BORDER-TOP: #e9ebed thin solid;
+    BORDER-LEFT: #e9ebed thin solid;
+    COLOR: #ffffff;
+    BORDER-BOTTOM: #e9ebed thin solid;
+    BACKGROUND-COLOR: #f1f8fc
+}
+.fuenteformulario
+{
+    FONT-SIZE: 10px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuenteboton
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: center
+}
+.fuentetitulomapa
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11px;
+    COLOR: #0c4f8a;
+    BACKGROUND-COLOR: #d3e1ec
+}
+.fuentemapa
+{
+    FONT-SIZE: 10px;
+    COLOR: #3b5f91;
+    BACKGROUND-COLOR: #f2f5f7
+}
+.tablamapa
+{
+    BORDER-RIGHT: #dce5ec 2px solid;
+    BORDER-TOP: #dce5ec 2px solid;
+    BORDER-LEFT: #dce5ec 2px solid;
+    COLOR: #dce5ec;
+    BORDER-BOTTOM: #dce5ec 2px solid;
+    BACKGROUND-COLOR: #fff8eb
+}
+.tablaplan
+{
+    BORDER-RIGHT: #dce5ec 2px solid;
+    BORDER-TOP: #dce5ec 2px solid;
+    BORDER-LEFT: #dce5ec 2px solid;
+    COLOR: #dce5ec;
+    BORDER-BOTTOM: #dce5ec 2px solid;
+    BACKGROUND-COLOR: #fff8eb
+}
+.fuentenodatos
+{
+    FONT-SIZE: 12px;
+    COLOR: #af7c38;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.fuenteformulario100
+{
+    FONT-SIZE: 10px;
+    WIDTH: 100px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuenteformulario150
+{
+    FONT-SIZE: 10px;
+    WIDTH: 150px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff
+}
+.fuenteformulario200
+{
+    FONT-SIZE: 10px;
+    WIDTH: 200px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff
+}
+.tablamenuright
+{
+    TEXT-ALIGN: right
+}
+.tablamenuleft
+{
+    TEXT-ALIGN: left
+}
+.fuentevalor2
+{
+    FONT-SIZE: 10px;
+    COLOR: #033b8a;
+    BACKGROUND-COLOR: #f1f8fc;
+    TEXT-ALIGN: left
+}
+.fuentebotonright
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: right
+}
+.fuentebotonright2
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #f1f8fc;
+    TEXT-ALIGN: right
+}
+.tablaestadosceldatituloflecha
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #d3e1ec;
+    TEXT-ALIGN: right
+}
+.fuenteactualizar
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 14px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.fuenteactualizar2
+{
+    FONT-SIZE: 12px;
+    COLOR: #195095;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: center
+}
+.enlacenofuncional
+{
+    FONT-SIZE: 10px;
+    COLOR: #175e9e;
+    BACKGROUND-COLOR: #ffffff
+}
+.password1
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 0%;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #ffffff
+}
+.password2
+{
+    COLOR: #195095;
+    BACKGROUND-COLOR: #ffffff
+}
+.campo
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px
+}
+.campoe
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    TEXT-ALIGN: right
+}
+.haberes
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    TEXT-ALIGN: center
+}
+.importante
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    TEXT-ALIGN: right
+}
+.titulo1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 18px;
+    TEXT-ALIGN: center
+}
+.titulo2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px
+}
+.titulo3
+{
+    FONT-SIZE: 14px
+}
+.valor
+{
+    BORDER-RIGHT: #d40000;
+    BORDER-TOP: #d40000;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #d40000;
+    BORDER-BOTTOM: #d40000;
+    TEXT-ALIGN: right
+}
+.valori
+{
+    BORDER-RIGHT: #d40000;
+    BORDER-TOP: #d40000;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: #d40000;
+    BORDER-BOTTOM: #d40000;
+    TEXT-ALIGN: left
+}
+.fuenteleyenda_big
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 15px;
+    COLOR: #15314c;
+    BACKGROUND-COLOR: #e9eef2
+}
+.tablasubtitulo
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #0c4f8a;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: left
+}
+.fuentevalor4
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #191970;
+    BACKGROUND-COLOR: #e9eef2;
+    TEXT-ALIGN: left
+}
